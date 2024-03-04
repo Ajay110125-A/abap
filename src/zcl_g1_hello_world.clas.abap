@@ -29,7 +29,7 @@ CLASS zcl_g1_hello_world IMPLEMENTATION.
     DATA part2 TYPE string VALUE `World`.
 * String Templates ********************************************************************** " comment/uncomment the following lines for different examples
     DATA(text) = |Hello World|.
-* DATA(text) = |Total: { amount } EUR|.
+     text = |Total: { amount } EUR|.
 * DATA(text) = |Total: { amount1 + amount2 } EUR|.
 * Format Options **********************************************************************
     "Date
