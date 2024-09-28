@@ -1,0 +1,5 @@
+@EndUserText.label: 'SD for Travel Unmanaged'
+define service ZUI_TRAVEL_AY_U_V2 {
+  expose ZC_TRAVEL_AY_U;
+  expose ZC_BOOKING_AY_U;
+}
